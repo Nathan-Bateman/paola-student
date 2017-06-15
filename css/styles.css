@@ -1,0 +1,397 @@
+h1 {
+    color:black;
+    font-family: roboto;
+    font-size: 60px;
+}
+h2 {
+    color:black;
+    font-family: roboto;
+    font-size: 45px;
+}
+h3 {
+    color:black;
+    font-family: roboto;
+    font-size: 35px;
+}
+h4 {
+    color:black;
+    font-family: roboto;
+    font-size: 25px;
+}
+
+p {
+    color:black;
+    font-family: roboto;
+    font-size: 16px;
+}
+.container-fluid {
+    overflow-x: hidden;
+}
+
+.color-primary-0 { color: #FFD373 }	/* Main Primary color */
+.color-primary-1 { color: #FFECC2 }
+.color-primary-2 { color: #FFDF98 }
+.color-primary-3 { color: #DFB049 }
+.color-primary-4 { color: #BF8E24 }
+
+.color-secondary-1-0 { color: #FFE973 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #FFF5C2 }
+.color-secondary-1-2 { color: #FFEF98 }
+.color-secondary-1-3 { color: #DFC849 }
+.color-secondary-1-4 { color: #BFA724 }
+
+.color-secondary-2-0 { color: #FFB673 }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #FFDFC2 }
+.color-secondary-2-2 { color: #FFCA98 }
+.color-secondary-2-3 { color: #DF9149 }
+.color-secondary-2-4 { color: #BF6F24 }
+body {
+    background-color:#fff;
+}
+.max-width{
+    max-width: 1080px;
+    margin: 0 auto;
+    
+}
+.header {
+    border-bottom: 5px solid black;
+    padding-bottom: 15px;
+}
+.header #student-name > img {
+    width: 175px;
+    margin-left: 25px;
+}
+.header #student-name > h4 {
+    color: #5d5858;
+    letter-spacing: 10px;
+}
+#school-class {
+    text-align: right;
+    position: relative;
+    transform: translateY(50%);
+}
+#school-class > ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    margin-top: 55px;
+    
+}
+#school-class > ul > li {
+    margin-right: 50px;
+    font-size: 18px;
+    cursor: default;
+}
+#school-class > ul > li:last-child {
+    margin-right: 0px;
+}
+#school-class > ul > li:hover {
+    text-decoration: underline;
+}
+.banner-wrap {
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+     background-image: url("img/main_bg.jpg");
+    background-position: right 35%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 350px;
+    padding:0;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+}
+.banner {
+   /* background-image: url("img/main_bg.jpg");
+    background-position: right 35%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50%;
+    padding:0;
+    margin:0;*/
+   
+}
+.main-cat {
+    position: relative;
+    transform: translateY(50%); 
+}
+.animation-cat {
+    animation: enter .75s;
+}
+.hide-animation {
+    display:none;
+}
+@-webkit-keyframes enter {
+    from {left: -9999px;}
+    to {left: 0px;}
+}
+
+@keyframes enter {
+    from {left: -9999px;}
+    to {left: 0px;}
+}
+.main-cat > h1 {
+    
+    margin-left: 13px;
+    
+}
+.main-cat > h4 {
+    color: #5d5858;
+    letter-spacing: 10px;
+    margin-left: 15px;
+    
+}
+.main-cat > button {
+    background-color: orange;
+    width: 150px;
+    height: 60px;
+    color: #fff;
+    font-size: 22px;
+    font-family: roboto;
+    font-weight: 400;
+    letter-spacing: .5px;
+    border: none;
+    margin: 5px 0 0 15px;
+    transition: background-color .25s;
+    -webkit-transition: background-color .25s; /* Safari 3.1 to 6.0 */
+}
+.main-cat > button:hover {
+    background-color: rgba(255, 165, 0, 0.72);
+}
+.main-cat > button > a {
+        color: #fff;
+        text-decoration: none;
+    }
+.classes-activities {
+    background-color: #FFF;
+    border-top: 5px solid black;
+    border-bottom: 5px solid orange;
+    padding: 50px 0 50px 0;
+}
+.classes-activities h2 {
+    text-align: center;
+    margin-bottom: 85px;
+}
+#friends img {
+    max-width: 300px;
+    border-radius:50%;
+    border: solid 2px #fff;
+    margin: 0 auto;
+}
+.friends-images {
+    display: flex;
+    justify-content: center;
+/*    flex-wrap: wrap;*/
+    margin: 50px 0px;
+    
+}
+.friends-images > div > .img-border {
+    border-radius: 50%;
+    border: 3px #fff solid;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    padding: 20px;
+    margin: 0 50px 30px 50px;
+}
+.friends-images > div > h3 {
+    color: #fff !important;
+}
+.friends-images > div > p {
+    color: #fff !important;
+}
+.friends-bg {
+    background-color: black;
+}
+.friends-bg h2 {
+    color: #fff;
+}
+
+#activities, #friends, #quote, .footer {
+    text-align: center;
+        
+}
+.classes-activities-row {
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    margin-bottom: 125px;
+}
+.classes-activities-row > div {
+    text-align: center;
+    min-width: 145px;
+}
+.classes-activities-row p:first-child {
+
+    font-size: 50px;
+}
+#classes > ul > li {
+    margin-bottom: 25px;
+}
+.classes-activities-row p:last-child {
+    font-size: 25px;
+/*    margin: 0 20px 0 0;*/
+}
+#classes > ul > li > .subject {
+    font-size: 28px;
+    position: absolute;
+    transform: translateY(25%);
+}
+.classes-activities-row .sbowl {
+    color: #bd1c10;
+}
+.classes-activities-row .fca {
+    color: #d43605
+}
+.classes-activities-row .english {
+    color: #F44336;
+}
+.classes-activities-row .history {
+    color: #2196F3;
+}
+.classes-activities-row .web {
+    color: #FF5722;
+}
+.classes-activities-row .culinary {
+    color: #607D8B;
+}
+#friends, #quote {
+    margin: 100px 0 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.footer {
+  padding: 100px 0 100px 0; 
+   background-color: #FFECC2;
+}
+.bg-img-quote {
+    background-image: url("img/background.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+   
+}
+.overlay-phs {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(236, 232, 232, 0.6);
+}
+.quote-granular {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.quote-granular > p {
+    text-align: left;
+    padding: 28px; 
+    font-size: 24px;
+    font-style:italic;
+}
+.footer > ul {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0;
+}
+.footer > ul > li {
+    list-style-type: none;
+    min-width: 50px;
+}
+.footer > ul > li > img{
+    width: 50px;
+    height: 50px;
+     -webkit-transition: width .2s, opacity .2s; /* Safari */
+    transition: width .2s, opacity .2s;
+}
+.footer > ul > li > img:hover {
+    width: 45px;
+    opacity: .4;
+}
+.footer > h4 > span {
+    margin-right: 5px;
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+.scroll-to-top {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.37);
+    z-index: 5;
+}
+.hidden {
+    visibility: hidden;
+}
+@media only screen and (max-width: 991px) {
+    #school-class > ul {
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-top:20px;
+    }
+    .main-cat {
+        text-align: center;
+    }
+    .main-cat > h1 {
+    
+        margin-left: 0px;
+    
+    }
+    .main-cat > h4 {
+        color: #5d5858;
+        letter-spacing: 10px;
+        margin-left: 0px;
+    
+    }
+    .main-cat > button {
+        margin-left: 0px;
+    }
+    
+    #student-name {
+        text-align: center;
+    }
+    .header #student-name > img {
+        margin:0;
+    }
+    .friends-images {
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .classes-activities-row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .classes-activities-row{
+        margin-bottom: 0px !important;
+    }
+    .classes-activities-row > div {
+        margin-bottom: 50px;
+    }
+    
+}
+@media only screen and (max-width: 480px) {
+    .main-cat > h1 {
+        font-size: 45px;
+    }
+    .main-cat > h4 {
+        font-size: 20px;
+    }
+    
+}
